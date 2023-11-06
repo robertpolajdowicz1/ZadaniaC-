@@ -1,0 +1,26 @@
+Nasz bohater uwielbia czytaæ beletrystykê, szczególnie t¹ w klimatach fantasy. Jego ulubionym autorem jest J.R.R Neiklot.
+Napisa³ on pewn¹ powieœæ pt. "Forteca Mairona". Ta fortyfikacja bardzo zainteresowa³a Alojzego i chcia³by poznaæ obszar 
+królestwa Mairona.
+
+
+Forteca Mairona to twierdza wzniesiona przy pomocy naszyjnika w Buziorze. Jest to g³ówna siedziba Mairona, upiornego, 
+z³owrogiego w³adcy, który jest znany ze swoich umiejêtnoœci manipulowania oraz mistrzostwa w torturach. Siedziba jest 
+po³o¿ona na d³ugiej, skalnej ostrodze gór. Budowanie twierdzy zajê³o 600 lat i uwa¿a siê j¹ za najpotê¿niejsz¹ warowniê w
+ca³ym uniwersum Mairona.
+
+
+Na terenie fortecy znajduj¹ siê wysokie wie¿e, które umo¿liwiaj¹ efektywn¹ obronê twierdzy. Wie¿e po³o¿one s¹ 
+w ró¿nych miejscach fortecy, a w jej centrum znajduje siê najwy¿sza wie¿a w królestwie, na której szczycie znajduje
+siê punkt obserwacyjny suwerena. Mury zbudowane s¹ z czarnego kamienia i otaczaj¹ ca³y obszar królestwa, opasaj¹c mo¿liwie
+najwiêkszy obszar. Mur prostymi odcinkami ³¹czy zewnêtrzne wie¿e, uniemo¿liwiaj¹c wrogom wtargniêcie do siedziby 
+przera¿aj¹cego gospodarza.
+
+
+WEJŒCIE
+W pierwszej linii wejœcia znajduje siê liczba naturalna N, zaœ w N kolejnych liniach podane s¹ wspó³rzêdne x i y wie¿, 
+gdzie x i y to liczby rzeczywiste.
+
+0 <= N <= 1000000000
+
+WYJŒCIE
+Nale¿y wypisaæ pole obszaru królestwa Mairona z dok³adnoœci¹ do 3 miejsc po przecinku.

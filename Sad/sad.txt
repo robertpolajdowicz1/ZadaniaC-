@@ -1,0 +1,23 @@
+Zbli¿a siê pora zrywania jab³ek. Ula posiada sad z jab³oniami, w którym znajduje siê n rzêdów drzew 
+(rzêdy s¹ numerowane od 0), po m jab³oni w ka¿dym rzêdzie (drzewa w rzêdzie s¹ numerowane od 0). 
+Na ka¿dym drzewie roœnie pewna liczba jab³ek. Ula ma system zbierania owoców, który polega na tym, 
+¿e danego dnia obrywa jab³ka z jednego drzewa z ka¿dego rzêdu, zaczynaj¹c od wybranego drzewa w rzêdzie 0.
+Po zerwaniu wszystkich owoców z drzewa przenosi siê do kolejnego drzewa w nastêpnym rzêdzie, ale w taki sposób,
+by podczas przesuwania siê z drabin¹ i koszami nie zmêczyæ siê za bardzo. Oznacza to, ¿e zmieniaj¹c rz¹d zawsze
+wybiera drzewo s¹siaduj¹ce od góry lub po skosie z lewej lub prawej strony z tym, z którego w³aœnie zerwa³a jab³ka
+(przyk³adowo, je¿eli zrywa jab³ka w rzêdzie 2 z drzewa o numerze 5, to w rzêdzie 3 wybiera drzewo numer 4, 5 lub 6).
+Ula d¹¿y do tego, ¿eby danego dnia zerwaæ jak najwiêcej jab³ek, dlatego musi siê zastanowiæ, gdzie w rzêdzie 0
+zacz¹æ i które drzewa wybieraæ na swojej drodze.
+Wejœcie:
+Na wejœciu program otrzymuje dwie liczby naturalne n i m, które odpowiednio oznaczaj¹ liczbê rzêdów sadu i liczbê
+drzew w rzêdzie. Kolejne n linii zawiera m liczb. Ka¿da z nich oznacza liczbê jab³ek na drzewie.
+Nale¿y przyj¹æ, ¿e dane s¹ podane od ostatniego rzêdu, a wiêc rz¹d 0 to ten w ostatniej linii danych wejœciowych.
+
+1 ? n ? 10000
+1 ? m ? 1000
+0 ? liczba jab³ek ? 10000
+Wyjœcie:
+Na wyjœciu program powinien wypisaæ dwie liczby. Pierwsza to numer drzewa, od którego Ula powinna zacz¹æ zbiór, 
+druga wartoœæ to maksymalna liczba zebranych jab³ek.
+W przypadku, gdy istnieje wiêcej mo¿liwoœci, które koñcz¹ siê tym samym wynikiem nale¿y wypisaæ najni¿szy numer 
+drzewa startowego.

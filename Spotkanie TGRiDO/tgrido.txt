@@ -1,0 +1,26 @@
+Ula organizuje bardzo wa¿ne spotkanie dla Towarzystwa Go³êbi Rasowych i Drobiu Ozdobnego, na które zaproszonych
+jest dok³adnie n osób. W ka¿dej chwili dowolne dwie osoby mog¹ wycofaæ siê i porozmawiaæ na osobnoœci. Te same dwie 
+osoby mog¹ rozmawiaæ kilka (tyle ile chc¹) razy podczas jednego spotkania. Ka¿da osoba ma ograniczon¹ towarzyskoœæ.
+Towarzyskoœæ i-tej osoby jest nieujemn¹
+liczb¹ ca³kowit¹ ai. Oznacza to, ¿e po dok³adnie ai rozmowach ta osoba opuszcza spotkanie (i nie rozmawia ju¿ z nikim innym).
+Jeœli ai=0, i-ta osoba opuszcza spotkanie natychmiast po jego rozpoczêciu. Ka¿da rozmowa zmniejsza towarzyskoœæ osób,
+bior¹cych w niej udzia³.
+
+Ula chcia³aby, ¿eby spotkanie by³o jak najbardziej produktywne, dlatego na podstawie informacji o towarzyskoœci 
+poszczególnych osób chce okreœliæ, którzy ludzie powinni ze sob¹ rozmawiaæ, aby ³¹czna liczba rozmów by³a jak najwiêksza.
+Nale¿y dodatkowo za³o¿yæ, ¿e osoby bardziej towarzyskie (o aktualnie wiêkszym wskaŸniku towarzyskoœci) bêd¹ chêtniej i
+wczeœniej zaczynaæ rozmowê ni¿ osoby mniej towarzyskie.
+
+Wejœcie:
+W pierwszej linii wejœcia znajduje siê liczba naturalna t - liczba testów. Kolejne t wierszy zawieraj¹ opisy przypadków
+testowych.
+Test sk³ada siê z liczby naturalnej n, która oznacza liczbê uczestników spotkania. Po niej nastêpuje n liczb ca³kowitych
+a1,a2,...,an, które s¹ wskaŸnikami towarzyskoœci kolejnych osób.
+
+2 ? n ? 200000
+0 ? ai ? 200000
+Wyjœcie:
+Na wyjœciu dla ka¿dego testu nale¿y wypisaæ maksymaln¹ liczbê mo¿liwych rozmów. Dodatkowo w kolejnych liniach nale¿y 
+wyœwietliæ pary liczb (numery osób), w kolejnoœci w jakiej osoby powinny ze sob¹ rozmawiaæ, przy za³o¿eniu, ¿e najbardziej 
+towarzyskie osoby rozpoczynaj¹ rozmowê wczeœniej. Je¿eli istnieje wiêcej mo¿liwych odpowiedzi nale¿y wyœwietliæ odpowiedŸ
+pierwsz¹ leksykograficznie. Osoby numerowane s¹ od 1.

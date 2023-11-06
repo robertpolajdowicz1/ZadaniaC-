@@ -1,0 +1,18 @@
+Du¿a popularnoœæ kryptowalut sprawi³a, ¿e i nasz bohater Alojzy zainteresowa³ siê t¹ tematyk¹. System, którego nie da siê z³amaæ?! Rewolucja! Alojzy zdumiony mo¿liwoœciami technologii blockchain, s³u¿¹cej do przechowywania i przesy³ania informacji o transakcjach zawartych w internecie, zdecydowa³ siê inwestowaæ w internetowe monety. Najbardziej zaciekawi³ go BajtCoin, który ponoæ stosuje wyj¹tkow¹, nikomu nieznan¹ formê algorytmu. Jego unikalnoœæ sprawia, ¿e mo¿na na nim bardzo dobrze zarobiæ… Niestety rynek kryptowalut jest bardzo niestabilny, a wybrana przez naszego poczciwego programistê waluta dostêpna jest jedynie na ograniczonej liczbie gie³d…
+
+
+Na szczêœcie mo¿na przelewaæ kryptowaluty pomiêdzy gie³dami, tak aby dotrzeæ do tej upragnionej. Oczywiœcie wi¹¿ê siê to z pewnymi kosztami, mianowicie ka¿da z gie³d za wyp³acanie z niej pieniêdzy pobiera od nich pewn¹ prowizjê. Wp³yw na wysokoœæ prowizji ma to, pomiêdzy którymi gie³dami jest dokonywany transfer. W trosce o swoje 100000 z³, które zainwestuje, nasz przezorny student zdecydowa³, ¿e nie mo¿e byæ zbyt pazerny. Aby nie wpaœæ w pu³apkê grania na gie³dach oraz unikn¹æ innych zagro¿eñ tj. niestabilnoœæ tego innowacyjnego rynku. Postawi³ sobie pewne ograniczenie. Mianowicie, jeœli zwiêkszy wartoœæ swoich BajtCoinów o 20% to przeleje pieni¹dze z powrotem do swojej wiod¹cej polskiej gie³dy cyfrowych walut.
+
+
+Mo¿liwoœci dostania siê do gie³d, które operuj¹ BajtCoinami jest mnóstwo. Ka¿da gie³da obci¹¿a nas nieusystematyzowan¹ wielkoœci¹ prowizji, co komplikuje wybór naszego bohatera. Pomó¿ Alojzemu w przygotowaniu algorytmu, który u³atwi mu wybór.
+
+
+WEJŒCIE
+Program wczytuje liczby naturaln¹ X, która definiuje iloœæ gie³d. Nastêpnie algorytm powinien odczytaæ X wartoœci 0 lub 1, okreœlaj¹ce status posiadania BajtCointa kolejnych gie³d. 0 jeœli gie³da nie posiada w swojej ofercie BajtCoina i 1 w przeciwnym wypadku. Kolejno algorytm wczytuje liczbê naturaln¹ N i N po³¹czeñ pomiêdzy gie³dami, czyli parê liczb A i B oraz dwie liczby rzeczywiste wiêksze-równe zeru I i J. A i B to liczby odpowiadaj¹ce gie³dom, zaœ I to wysokoœæ prowizji podczas transferu przed powieleniem maj¹tku przez Alojzego, a J po jego powieleniu. Nastêpnie program wczytujê liczbê naturaln¹ M, która okreœla numer naszej wiod¹cej gie³dy kryptowalut.
+
+1 <= X, N <= 1000000000
+0 <= A, B <= 1000000000
+0.0 <= I, J <= 0.5
+
+WYJŒCIE
+Na wyjœciu algorytm powinien wyœwietliæ najwiêksz¹ kwotê, jak¹ móg³by otrzymaæ Alojzy, przelewaj¹c pieni¹dze pomiêdzy gie³dami. Wynikiem powinna byæ liczba ca³kowita zaokr¹glona w dó³ do liczby jednoœci.

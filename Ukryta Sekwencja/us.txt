@@ -1,0 +1,24 @@
+Mówi¹c delikatnie Alojzemu kolejne inwestycje w BajtCoina "nie pyk³y". W zwi¹zku z tym, szuka sposobu na ³atwy
+zarobek i próbowa³ ju¿ wielu rzeczy. Teraz zainteresowa³y go gry losowe tj. LOTTO. Uwa¿a, ¿e wszystko jest tam 
+ustawione! By wygraæ du¿e pieni¹dze w kumulacji nale¿y odgadn¹æ zasady funkcjonowania systemu. Te zasady nasz bohater 
+us³ysza³ od swojego kolegi, w postaci bardzo ciekawej nowiny. Niestety nie do koñca rozumie o co w niej chodzi!
+
+
+CIEKAWA NOWINA KOLEGI ALOJZEGO - SEBY:
+"Liczby podzielone s¹ na pewne okresy. Okres jest sekwencj¹ wielu liczb z zakresu od 0 do 100. W ka¿dym okresie co najmniej
+dwa razy pojawia siê pewna subsekwencja liczb - X. Suma dwóch poprzednich miejsca wyst¹pienia subsekwencji mówi o tym,
+gdzie subsekwencja pojawi siê po raz kolejny w danym okresie. Pierwsza pozycja subsekwencji wykraczaj¹ca poza zakres okresu,
+pomniejszona o iloœæ elementów w okresie, bêdzie indeksem wyst¹pienia tej subsekwencji w kolejnym okresie liczb."
+Pomó¿ Alojzemu odkryæ pierwsze wyst¹pienie magicznej subsekwencji X w nastêpnym okresie.
+
+
+WEJŒCIE
+Program wczytuje liczbê naturaln¹ V, bêd¹c¹ iloœci¹ liczb w aktualnym okresie. Nastêpnie program powinien wczytaæ V liczb
+naturalnych. W kolejnym kroku algorytm powinien wczytaæ liczbê naturaln¹ P, a na koniec P liczb naturalnych reprezentuj¹cych
+subsekwencjê X.
+
+0 <= liczby w sekwencji <= 100
+0 <= V, P, N <= 2 000 000 000
+
+WYJŒCIE
+Wyœwietl pozycjê pierwszego wyst¹pienia subsekwencji w kolejnym okresie. Zak³adaj¹c, ¿e sekwencje numerowane s¹ od 0.

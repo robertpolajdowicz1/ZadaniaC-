@@ -1,0 +1,28 @@
+Nieopodal gospodarstwa Uli znajduj¹ siê pozosta³oœci po starych ogródkach dzia³kowych. 
+Nasza bohaterka postanowi³a przestudiowaæ mapê tego miejsca.
+Wed³ug tutejszych opowieœci pocz¹tkowo by³o tam n dzia³ek o kszta³tach prostok¹tnych. 
+Boki tych prostok¹tów by³y równoleg³e do osi wspó³rzêdnych, a rogi znajdowa³y siê w punktach o ca³kowitych wspó³rzêdnych.
+Ogrodzenia dzia³ek nie przecina³y siê, ale mog³y siê ze sob¹ stykaæ. Z biegiem czasu w³aœciciele zaczêli ³¹czyæ
+dzia³ki w wiêksze, ale tylko wtedy, gdy z³¹czenie ich równie¿ tworzy³o prostok¹t. W koñcu pozosta³ jeden w³aœciciel i 
+jedna du¿a dzia³ka.
+
+Pocz¹tkowo tak¿e na terenie ka¿dej dzia³ki sta³ prostok¹tny budynek (na przyk³ad szopa lub altanka). Boki równie¿ by³y
+równoleg³e do osi wspó³rzêdnych, a rogi znajdowa³y siê w punktach o ca³kowitych wspó³rzêdnych. Niektóre budynki mog³y
+stykaæ siê z granicami ogrodzenia lub bokami innych budynków. Niestety dzisiaj nie wiadomo ju¿ gdzie przebiega³y pocz¹tkowe
+granice dzia³ek.
+
+Ula podejrzewa, ¿e ca³a ta historia jest nieprawdziwa i chce sprawdziæ, czy dla zadanego rozmieszczenia budynków
+podzia³ dzia³ek jest mo¿liwy.
+
+Wejœcie:
+W pierwszej linii wejœcia znajduje siê liczba naturalna t - liczba testów.
+Nastêpnie dla ka¿dego testu znajduje siê opis terytorium dzia³kowego. Test sk³ada siê z liczby naturalnej n,
+która oznacza liczbê budynków i dzia³ek. W kolejnych n liniach znajduj¹ sie cztery liczby ca³kowite x1,y1,x2,y2, 
+które s¹ wspó³rzêdnymi kolejnych budynków, gdzie x1 i y1 to wspó³rzêdne lewego dolnego rogu, a x2 i y2 - prawego 
+górnego. Nale¿y przyj¹æ, ¿e budynki nie nachodz¹ na siebie.
+
+1 ? n ? 1000
+0 ? x1,y1,x2,y2 ? 1000000000
+Wyjœcie:
+Na wyjœciu dla ka¿dego testu nale¿y wypisaæ s³owo TAK, je¿eli dla tak rozstawionych budynków mo¿liwe jest 
+podzielenie terytorium na dzia³ki zgodnie z zasadami. Je¿eli nie mo¿na wykonaæ takiego podzia³u, nale¿y wypisaæ s³owo NIE.

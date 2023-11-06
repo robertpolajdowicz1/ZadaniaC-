@@ -1,0 +1,43 @@
+W tym roku pierwszy Tattoo Konwent, który goœci³ tak¿e w Lublinie, odbywa siê w Poznaniu 19-20.03.2022. 
+Taki festiwal to doskona³a okazja aby zrobiæ swój pierwszy lub kolejny tatua¿, zaczerpn¹æ inspiracji i 
+poznaæ proces tatuowania.
+
+
+Naszego bohatera tatua¿e bardzo interesuj¹, ale nigdy nie mia³ odwagi takowego zrobiæ. Alojzy ma istotne spotkanie
+biznesowe w tym terminie w Poznaniu. W zwi¹zku z tym uzna³, ¿e to idealny moment, ¿eby wykonaæ pierwszy krok. 
+Szerokie spektrum wspania³ych artystów bardzo przyt³oczy³o naszego bogatera i utrudnia mu podjêcie decyzji, którego
+artystê wybraæ na autora swojego pierwszego tatua¿u. Alojzy nie ma raczej duszy artysty, wiêc szybko problem 
+sprowadzi³ do natury statystycznej. Doszed³ do wniosku, ¿e powinien wybraæ artystê, który zrobi³ najwiêcej tatua¿y
+oraz ma najlepsz¹ œredni¹ ocen na popularnym portalu spo³ecznoœciowym. Niestety problem nie jest trywialny, 
+poniewa¿ bud¿et jaki mo¿e na to przeznaczyæ jest ograniczony, a lista dostêpnych artystów czêsto siê zmienia.
+Pojawiaj¹ siê nowe stoiska tatua¿u, b¹dŸ brakuje ju¿ miejsc na ju¿ zarejestrowanych, co komplikuje znalezienie
+odpowiedniego artysty.
+
+Po d³ugich rozwa¿aniach Alojzy doszed³ do pewnych wniosków i uporz¹dkowa³ wszystkich artystów wzglêdem ceny tatua¿u.
+Dodatkowo dla ka¿dego z artystów obliczy jego wspó³czynnik ‘atrakcyjnoœci’, na podstawie dwóch wczeœniej wspomnianych
+parametrów. Wspó³czynnikiem by³a wartoœæ: X / 5 * |_ Y / 1000 _|, gdzie X to œrednia ocena, a Y iloœæ g³osów. Teraz 
+nale¿a³o ograniczyæ grupê artystów, do tych odpowiadaj¹cych bud¿etowi i wymaganiom naszego programisty, tak by u³atwiæ
+ostateczny wybór.
+
+
+WEJŒCIE
+Algorytm na wejœciu otrzymuje liczbê naturaln¹ N, która mówi o iloœci operacji naszego algorytmu. Operacje dzielimy 
+na A oraz S.
+A - jest to operacja dodania tatua¿ysty do naszej listy artystów. W tej operacji algorytm powinien wczytaæ sekwencjê 
+wartoœci X Y Z S, gdzie X jest liczb¹ rzeczywist¹ i Y to liczba naturalne okreœlaj¹ce parametry potrzebne do wyliczenia
+atrakcyjnoœci oferty danego tatua¿ysty, Z to jego koszt, a S to jednowyrazowy pseudonim tatua¿ysty.
+S - jest to operacja wybierania tatua¿ysty. W tej operacji algorytm powinien wczytaæ równie¿ wartoœci, liczbê naturaln¹
+B oraz liczbê rzeczywist¹ F. B to iloœæ pieniêdzy, jakie dok³adnie chce wydaæ nasz student, zaœ F to wartoœæ wspó³czynnik
+atrakcyjnoœci, jak¹ co najmniej musi posiadaæ artysta, aby Alojzy by³ zadowolony z rezultatu procesu tatuowania.
+
+1 <= N <= 1000000000
+1 <= B, X, F, Y, Z <= 1000000
+D³ugoœæ pseudonimu to maksymalnie 25 znaków.
+
+WYJŒCIE
+Dla ka¿dej operacji S algorytm powinien wyœwietliæ odpowiedŸ;
+- jeœli znalaz³ artystê, o cenie równej iloœci pieniêdzy, które posiada Alojzy oraz spe³niaj¹cego wymagania ‘atrakcyjnoœci’,
+program powinien wyœwietliæ pseudonim artysty i usun¹æ go z listy, w przypadku gdy jest kilku artystów o tej samej cenie 
+tatua¿u i oboje spe³niaj¹ wymagania ‘atrakcyjnoœci’ nale¿y wybraæ tego, który ma ten wspó³czynnik wiêkszy, gdy wartoœæ 
+wspó³czynnika dla kilku artystów jest taka sama decyduje to, który artysta póŸniej zadeklarowa³ swoj¹ obecnoœæ,
+- jeœli nie znalaz³ artysty spe³niaj¹cego wymagania, program powinien wyœwietliæ ‘-’.

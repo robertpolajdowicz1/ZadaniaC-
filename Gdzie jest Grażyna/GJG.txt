@@ -1,0 +1,27 @@
+Gra¿yna, mama Alojzego, wyczyta³a w gazecie, ¿e kuchnia to najbardziej prawdopodobne miejsce,
+gdzie mo¿na zastaæ statystyczn¹ kobietê. Naszej bohaterce nie bardzo podoba siê to stwierdzenie.
+W koñcu uwa¿a siebie za nowoczesn¹ reprezentantkê tej p³ci, nie potrzebuje opinii innych, sama wie najlepiej,
+ile jest warta, gdzie spêdza czas... no i ma smartfon! Dosz³a do wniosku, ¿e osobiœcie zweryfikuje t¹ tezê.
+Chce sprawdziæ z jakim prawdopodobieñstwem mo¿na znaleŸæ j¹ w wybranych pomieszczeniach zacisza domowego, w 
+okreœlonym czasie. Dodatkowo u³atwi to rodzinie znalezienie kobiety, gdy bêd¹ mieli do niej jak¹œ bardzo wa¿n¹ sprawê!
+
+
+Nasz m³ody programista stwierdzi³, ¿e pomo¿e swojej mamie. Napisz program, który obliczy prawdopodobieñstwo 
+znalezienie naszej bohaterki w okreœlonych godzinach dla przedstawionych poni¿ej pomieszczeñ:
+0 - kuchnia,
+1 - ogród,
+2 - sypialnia,
+3 - pokój rodzinny,
+4 - ³azienka,
+5 - balkon.
+
+WEJŒCIE
+Program na wejœcie otrzymuje dwie godziny w formacie HH:mm, które mówi¹ o przedziale czasowym do zweryfikowania,
+a nastêpnie przyjmuje numer pokoju.
+
+0 < HH <= 24
+0 <= mm < 60
+
+WYJŒCIE
+Nale¿y wypisaæ jakie jest prawdopodobieñstwo pojawienia siê Gra¿yny, w wybranym pomieszczeniu w danym 
+przedziale czasowy. Wynik powinien byæ podany z dok³adnoœci¹ do dwóch miejsc po przecinku.

@@ -1,0 +1,20 @@
+Na ostatnich zbiorach jab³ek Uli uda³o siê zarobiæ doœæ pieniêdzy, by wyposa¿yæ swój sad w nowy system nawadniaj¹cy.
+Ula musi wybraæ spoœród n stanowisk nawadniaj¹cych. Dla Uli nie bez znaczenia
+jest estetyka wybranych rozwi¹zañ. Niektóre stanowiska s¹ brzydsze, inne ³adniejsze. Ka¿de stanowisko ni zmienia poziom
+estetyki w sadzie o wartoœæ si, a jego monta¿ generuje koszt ci. Ula zak³ada, ¿e idealny poziom estetyki jest równy 0
+(taki, jaki jest obecnie przed monta¿em systemu). Które z proponowanych stanowisk Ula powinna wybraæ, by osi¹gn¹æ idealny
+poziom estetyki przy jak najmniejszym koszcie?
+
+Wejœcie:
+Na wejœciu program otrzyma liczbê ca³kowita t, która oznacza liczbê testów.
+Dalej znajduje siê t zestawów danych, z których ka¿dy sk³ada siê z liczby naturalnej n, oznaczaj¹cej liczbê stanowisk
+oraz n linii, które opisuj¹ stanowiska. Opis sk³ada siê z dwóch liczb ca³kowitych si i ci, gdzie si informuje o tym,
+jak zmieni siê poziom estetyki sadu po zamontowaniu danego stanowiska, a ci jest kosztem monta¿u.
+
+1 ? t ? 10
+1 ? n ? 100
+-10000 ? s ? 10000
+0 ? c ? 10000
+Wyjœcie:
+Na wyjœciu dla ka¿dego testu program ma wypisaæ minimalny koszt monta¿u stanowisk, przy za³o¿eniu, ¿e ustawienie
+ich nie zmieni idealnego poziomu estetyki. Jeœli nie istnieje takie ustawienie program ma wypisaæ s³owo "NIE".
